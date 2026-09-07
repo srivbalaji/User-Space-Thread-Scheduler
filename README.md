@@ -1,6 +1,6 @@
 # User-Space Thread Scheduler
 
-A high-performance, multi-core user-space threading library built in C++17 and raw x86-64 assembly. This project expands upon the cooperative runtime foundation of Stanford CS 240's Chloros lab, extending it into a fully-featured concurrent threading system with preemptive multitasking, lock-free messaging, atomic synchronization primitives, and a multi-core work-stealing scheduler—all implemented without relying on `std::thread`.
+A high-performance, multi-core user-space threading library built in C++17 and raw x86-64 assembly. This project expands upon the cooperative runtime foundation of Stanford CS 240's Chloros lab, extending it into a fully-featured concurrent threading system with preemptive multitasking, lock-free messaging, atomic synchronization primitives, and a multi-core work-stealing scheduler. All of the previously mentioned will be implemented without relying on `std::thread`.
 
 ---
 
